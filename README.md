@@ -19,3 +19,5 @@ google-auth-httplib2
 google-api-python-client
 requests
 openai
+
+Of course, this is paired with your automation software of choice; personally, I used an automator script which was nicely integrated into the MacOS ecosystem, so a seamless scheduled delivery through iMessage was possible. 
