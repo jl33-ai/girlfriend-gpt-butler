@@ -25,3 +25,31 @@ openai
 **An example message:**
 
 ![Example Message](example_message.jpg)
+
+**Simple Automator Script to Deliver iMessage:**
+
+```automator
+on run {input, parameters}
+	set theSentence to item 1 of input
+	set phoneNumber to "0481369898" -- Replace with the recipient's phone number
+	
+	-- Replace the placeholder string back to line breaks before sending the message
+	set theMessage to my replaceText(theSentence, "__LINE_BREAK__", return)
+	
+	tell application "Messages"
+		set targetService to 1st account whose service type = iMessage
+		set targetBuddy to participant phoneNumber of targetService
+		send theMessage to targetBuddy
+	end tell
+end run
+
+-- Function to replace text
+on replaceText(textString, oldString, newString)
+	set {tempTID, AppleScript's text item delimiters} to {AppleScript's text item delimiters, oldString}
+	set textString to text items of textString
+	set AppleScript's text item delimiters to newString
+	set textString to "" & textString
+	set AppleScript's text item delimiters to tempTID
+	return textString
+end replaceText
+```
