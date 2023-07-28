@@ -1,6 +1,6 @@
 # girlfriend-gpt-butler
 
-### J-GPT Personal Assistant for Justin and Molly
+### 🤖 J-GPT Personal Assistant for Justin and Molly 
 
 This project aims to create a personalized daily message for Molly, Justin's girlfriend, using the GPT-3.5-turbo model from OpenAI. The message includes details such as the date, maximum UV index, days since they met, a daily reminder, and a random reason why Justin loves Molly. Additionally, it provides a summary of tasks/activities/reminders for the day from a Google Doc.
 
