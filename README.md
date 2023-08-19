@@ -1,16 +1,16 @@
-# girlfriend-gpt-butler
+# 🤖 J-GPT Personal Assistant for Justin and Molly 
 
-### 🤖 J-GPT Personal Assistant for Justin and Molly 
+![photo-1679083216051-aa510a1a2c0e](https://github.com/jl33-ai/girlfriend-gpt-butler/assets/127172022/f64a8667-0226-4359-a88c-4f55f570cf07)
 
-This project aims to create a personalized daily message for Molly, Justin's girlfriend, using the GPT-3.5-turbo model from OpenAI. The message includes details such as the date, maximum UV index, days since they met, a daily reminder, and a random reason why Justin loves Molly. Additionally, it provides a summary of tasks/activities/reminders for the day from a Google Doc.
+This project aims to create a personalized daily message for Justin's girlfriend, using the GPT-3.5-turbo model from OpenAI. The message includes details such as the date, maximum UV index, days since they met, a daily reminder, and a random reason why Justin loves Molly. Additionally, it provides a summary of tasks/activities/reminders for the day from a Google Doc.
 
-Features
+### Features
+- Retrieves daily UV index using OpenUV API.
+- Fetches tasks and activities from a shared Google Doc (which serves as calendar).
+- Generates a personalized message using GPT-3.5-turbo.
+- Includes emojis and unique phrases in the message.
 
-Retrieves daily UV index using OpenUV API.
-Fetches tasks and activities from a shared Google Doc.
-Generates a personalized message using GPT-3.5-turbo.
-Includes emojis and unique phrases in the message.
-Dependencies
+### Dependencies
 
 Python 3.6+
 google-auth
