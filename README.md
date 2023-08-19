@@ -7,8 +7,11 @@ This project aims to create a personalized daily message for Justin's girlfriend
 ### Features
 - Retrieves daily UV index using OpenUV API.
 - Fetches tasks and activities from a shared Google Doc (which serves as calendar).
-- Generates a personalized message using GPT-3.5-turbo.
+- Fetches a single random line from an online 'reasons.txt' repository.
+- Compiles this all into a personalized message using GPT-3.5-turbo.
 - Includes emojis and unique phrases in the message.
+
+`With the press of a button.`
 
 ### Dependencies
 
